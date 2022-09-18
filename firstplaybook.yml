@@ -2,7 +2,20 @@
 - hosts: all 
   become: yes
   tasks: 
-  - name: install apache2
+  - name: install apache
     apt:
      name: apache2 
      state: present 
+
+  - name: install java on ubuntu
+    apt: 
+      name: "{{myjavapackonubuntu}}"
+      state: present
+    when: ansible_os_family =="Debian"
+
+  - name: install java on RedHat
+    yum:
+      name: "{{myjavapackonredhat}}"
+      state: present
+    when: ansible_os_family =="RedHat"
+    
