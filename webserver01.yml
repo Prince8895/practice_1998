@@ -1,0 +1,10 @@
+--- 
+- hosts: all 
+  become: yes
+  tasks: 
+  - nmae: i want to install webserver on ubuntu nodes
+    apt:
+     name: apche2
+     state: present 
+
+  - name: i want start webserver on ubuntu nodes 
