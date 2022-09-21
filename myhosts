@@ -13,6 +13,6 @@
 
 [mywebserver:vars]
 var=value
-mypackonubuntu=apache2
-mypackonRedHat=httpd
+iamonubuntu=apache2
+iamonRedHat=httpd
 
