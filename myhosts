@@ -13,6 +13,6 @@
 
 [mywebserver:vars]
 var=value
-iamonubuntu=apache2
-iamonRedHat=httpd
+iambackonubuntu=apache2
+iambackonRedHat=httpd
 
