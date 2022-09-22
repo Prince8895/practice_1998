@@ -2,9 +2,9 @@
 - hosts: 172.31.31.77
   become: yes
   vars:
-  myvar01: git
-  myvar02: wget
-  myvar03: tree 
+    myvar01: git
+    myvar02: wget
+    myvar03: tree 
   tasks:
    name: i want display myvar02 
    debug:
