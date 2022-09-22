@@ -11,8 +11,5 @@
 172.56.123.111
 172.45.445.143
 
-[mywebserver:vars]
-var=value
-mypackonubuntu=apache2
-mypackonRedHat=httpd
+
 
