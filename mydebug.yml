@@ -4,3 +4,7 @@
   tasks:
   - name: execute linux directly
     command: hostname -f
+
+  - name: i want to display first task result 
+    debug:
+      msg: "{{hostname -f}}"
