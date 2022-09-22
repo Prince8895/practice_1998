@@ -6,6 +6,6 @@
     myvar02: wget
     myvar03: tree 
   tasks:
-   name: i want display myvar02 
-   debug:
-    msg: "{{myvar02}}"
+  - name: i want display myvar02 
+    debug:
+      msg: "{{myvar02}}"
