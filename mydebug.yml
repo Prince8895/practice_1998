@@ -13,7 +13,7 @@
 
   - name: install git 
     apt:
-     name: tree 
+     name: git 
      state: present 
     when: myresult.stderr ==""
 
