@@ -7,9 +7,9 @@
   - name: create a folder
     file:
      path: /home/ubuntu/myfolder 
-     dest: directory
+     state: directory
 
   - name: i want to copy files
     copy:
      src: mystackfile 
-     dest: /home/ubuntu/mystackfile
+     dest: /home/ubuntu/mystackfile.txt
