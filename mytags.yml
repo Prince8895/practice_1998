@@ -5,14 +5,17 @@
   - name: install apache2
     apt:
      name: apache2
-     state: present 
+     state: present
+    tags: myapache2
 
   - name: install git 
     apt: 
      name: git
-     state: present 
+     state: present
+    tags: mygit 
 
   - name: install tree 
     apt: 
      name: tree
-     state: present 
+     state: present
+    tags: mytree 
