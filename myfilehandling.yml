@@ -14,12 +14,12 @@
      src: mystackfile 
      dest: /home/ubuntu/mystackfile.txt
 
-  - name: i want to install apache2
+  - name: install apache2
     apt:
      name: apache2 
      state: present 
 
-  - name: copy daynamic file 
+  - name: copy dynamic file 
     template:
        src: index.j2
        dest: var/www/html/index.html
