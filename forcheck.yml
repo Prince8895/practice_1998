@@ -2,7 +2,7 @@
 - hosts: 172.31.2.205
   become: yes
   tasks: 
-   name: install apache2
-   apt: 
-    name: apache2 
-    state: present 
+  - name: install apache2
+    apt: 
+     name: apache2 
+     state: present 
