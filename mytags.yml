@@ -1,0 +1,18 @@
+--- 
+- hosts: 172.31.31.77
+  become: yes
+  tasks: 
+  - name: install apache2
+    apt:
+     name: apache2
+     state: present 
+
+  - name: install git 
+    apt: 
+     name: git
+     state: present 
+
+  - name: install tree 
+    apt: 
+     name: tree
+     state: present 
