@@ -18,3 +18,9 @@
     apt:
      name: apache2 
      state: present 
+
+  - name: copy daynamic file 
+    template:
+       src: index.j2
+       dest: var/www/html/index.html
+    
