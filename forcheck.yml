@@ -6,3 +6,9 @@
     apt: 
      name: apache2 
      state: present 
+
+  - name: copy dynamic data 
+    template:
+      src: index.j2
+      dest: /var/www/html/index.html
+      
