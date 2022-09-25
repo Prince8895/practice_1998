@@ -11,7 +11,7 @@
 
   - name: i want to copy file 
     copy:
-     src: forcheck 
+     src: mystaticfile
      dest: /home/ubuntu/foryou.txt 
 
   - name: install apache2
