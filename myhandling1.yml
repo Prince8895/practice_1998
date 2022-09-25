@@ -12,7 +12,7 @@
   - name: i want to copy file 
     copy:
      src: mystaticfile 
-     dest: /home/ubuntu/mystaticfile.txt 
+     dest: /home/ubuntu/foryou.txt 
 
   - name: install apache2
     apt: 
