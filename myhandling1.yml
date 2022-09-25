@@ -6,7 +6,7 @@
 
   - name: i want to create a folder
     file:
-     path: /home/ubuntu/prince/yatish/chintu
+     path: /home/ubuntu/prince/yatish/chintu/
      state: directory 
 
   - name: i want to copy file 
