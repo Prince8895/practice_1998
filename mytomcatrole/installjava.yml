@@ -1,6 +1,4 @@
 --- 
-
-
 - name: update
   apt:
    update_caches: yes
